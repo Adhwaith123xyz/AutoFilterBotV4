@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = @ADMOVEIAD,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔥MY groop🔥', url="https://t.me/ADMOVEIAD"
                                 )
                         ]
                     ]
@@ -50,7 +50,7 @@ async def start(bot, update):
         InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/@ADMOVEIAD')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
